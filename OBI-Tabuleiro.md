@@ -33,6 +33,7 @@ Seu programa deve produzir uma única linha, contendo um único inteiro, o peso 
 #### Entrada:
 
 6
+
 4 1 3 8 4 5
 
 9 2 8 9 2 7
