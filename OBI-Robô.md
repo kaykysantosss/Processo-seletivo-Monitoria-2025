@@ -83,7 +83,7 @@ int main(){
 
 Podemos notar que as váriaveis **contador** e **estacao** são inicializadas. **contador** tera seu valor inicial igual a 0, já a **estação** será inicada com valor = 1, pois o problema nos diz que o robô sempre inicia na estação 1.
 
-### Passo 3: Atualização das váriaveis
+### Passo 4: Atualização das váriaveis
 
 Rebemos a entrada das 3 variáveis iniciais.
 
@@ -91,7 +91,7 @@ Rebemos a entrada das 3 variáveis iniciais.
   scanf("%d %d %d",&N,&C,&S);
 ```
 
-### Passo 4: Lógica envolvida
+### Passo 5: Lógica envolvida
 
 Inicialmente, antes de analisarmos cada situação, devemos realizar uma condição inicial de um caso isolado. Caso a estação mais próxima a área devastada(S) seja igual ao valor da estação inicial(1), nosso contador somará + 1. Ao realizar essa condição forçamos o robô a verificar a estação inicial antes de seguir para a próxima.
 
@@ -166,7 +166,7 @@ for(i = 0; i < C; i++){
 	
 	printf("%d", contador);
 ```
-### Passo 5: Finalização do programa
+### Passo 6: Finalização do programa
  
  Por último a função deverá nos retornar um valor inteiro. Para indicarmos que a função não teve erros, retornamos a mesma a 0.
 
