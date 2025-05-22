@@ -130,7 +130,7 @@ Agora analisaremos duas possíveis situações. Primeiramente, o problema nos fo
 		 }
 ```
 
-O contrário também deve ser considerado. Se a estação atual for menor que a estação inial, ou seja, caso retornarmos 1 estação anterior a inicial, estaremos na última estação,Logo, a variável estação guardará N.
+O contrário também deve ser considerado. Se a estação atual for menor que a estação inicial, ou seja, caso retornarmos 1 estação anterior a inicial, estaremos na última estação,Logo, a variável estação guardará N.
 
 ```cpp
 	 	if(estacao < 1 ){
